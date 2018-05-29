@@ -10,17 +10,5 @@
       "datebuy": "29.05.2018 20:55",
       "dategame": "30.05.2018 21:00",
       "win": "true"
-    },
-    "general":
-    {
-    "id": "2",
-    "firstName": "Liana",
-    "lastName": "Crooks",
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/kevinoh/128.jpg",
-    "email": "liana@gmail.ru",
-    "payeer": "PA13135462",
-    "datebuy": "29.05.2018 10:30",
-    "dategame": "30.05.2018 21:00",
-    "win": "false"
-  }
+    }
 }
