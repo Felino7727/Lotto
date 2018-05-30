@@ -7,6 +7,7 @@ import {ListWonComponent} from './list-won/list-won.component';
 import {ListHomeComponent} from './list-home/list-home.component';
 import {FormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
+import {ListNavigationComponent} from './list-navigation.component';
 
 
 
@@ -14,7 +15,8 @@ import {BrowserModule} from '@angular/platform-browser';
   declarations: [
     ListBuyComponent,
     ListWonComponent,
-    ListHomeComponent
+    ListHomeComponent,
+    ListNavigationComponent
   ],
   imports: [
     CommonModule,
