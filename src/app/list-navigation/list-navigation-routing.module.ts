@@ -5,10 +5,9 @@ import {ListHomeComponent} from './list-home/list-home.component';
 import {ListWonComponent} from './list-won/list-won.component';
 
 const routes: Routes =[
-  {path:'list-home',component:ListHomeComponent,children:[
-      {path:'list-buy',component:ListBuyComponent},
-      {path:'list-won',component:ListWonComponent}
-    ]}
+  {path:'home',component:ListHomeComponent },
+  {path:'buy',component:ListBuyComponent},
+  {path:'won',component:ListWonComponent}
 ];
 
 @NgModule({
