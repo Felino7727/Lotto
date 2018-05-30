@@ -6,6 +6,7 @@ import { ListNavigationComponent } from './list-navigation/list-navigation.compo
 import { ListBuyComponent } from './list-navigation/list-buy/list-buy.component';
 import { ListWonComponent } from './list-navigation/list-won/list-won.component';
 import { ListHomeComponent } from './list-navigation/list-home/list-home.component';
+import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ListHomeComponent } from './list-navigation/list-home/list-home.compone
     ListHomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
