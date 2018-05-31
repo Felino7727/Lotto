@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {NavigationRoutingModule} from './list-navigation-routing.module';
 
 import {ListBuyComponent} from './list-buy/list-buy.component';
 import {ListWonComponent} from './list-won/list-won.component';
@@ -20,7 +19,6 @@ import {ListNavigationComponent} from './list-navigation.component';
   ],
   imports: [
     CommonModule,
-    NavigationRoutingModule,
     BrowserModule,
     FormsModule,
   ]
