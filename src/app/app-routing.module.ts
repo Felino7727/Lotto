@@ -5,7 +5,7 @@ import {ListBuyComponent} from './list-navigation/list-buy/list-buy.component';
 import {ListHomeComponent} from './list-navigation/list-home/list-home.component';
 
 const routes: Routes =[
-  {path:'home',component:ListHomeComponent},
+  {path:'',component:ListHomeComponent},
   {path:'buy',component:ListBuyComponent},
   {path:'won',component:ListWonComponent}
 ];

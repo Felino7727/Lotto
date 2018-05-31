@@ -1,10 +1,9 @@
 <div class="row">
-  <form class="col s6">
+  <form class="col s6" [formGroup]="form" (ngSubmit)="onSubmit()">
 
     <div class="row">
       <div class="input-field col s12">
-        <input id="ticket" type="password" class="validate">
-        <label for="ticket">Ticket</label>
+        <input id="ticket" type="text" class="validate" formControlName="ticket" placeholder="ticket">
       </div>
     </div>
 
@@ -22,16 +21,15 @@
 
     <div class="row">
       <div class="input-field col s6">
-        <input id="email" type="email" class="validate">
-        <label for="email">Email</label>
+        <input id="email" type="email" class="validate" formControlName="email" placeholder="E-mail">
       </div>
+
       <div class="input-field col s6">
-        <input id="payeer" type="email" class="validate">
-        <label for="payeer">Payeer</label>
+        <input id="payeer" type="text" class="validate" formControlName="payeer" placeholder="payeer">
       </div>
     </div>
 
-    <button class="btn waves-effect waves-light" type="submit" name="action">Buy
+    <button class="btn waves-effect waves-light" type="submit" name="action" [disabled]="form.invalid">Buy
       <i class="material-icons right">send</i>
     </button>
 
