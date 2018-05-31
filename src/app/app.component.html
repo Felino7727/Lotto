@@ -1,4 +1,32 @@
 <div>
-  <button>1</button>
-    <router-outlet></router-outlet>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a [routerLink]="''" class="brand-logo center">Lotto</a>
+    </div>
+  </nav>
+  <!-- Navbar goes here -->
+
+  <!-- Page Layout here -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col s3">
+        <li><a [routerLink]="''">Home</a></li>
+        <li><a [routerLink]="'/buy'">buy</a></li>
+        <li><a [routerLink]="'/won'">Win</a></li>
+      </div>
+
+      <div class="col s9">
+        <router-outlet></router-outlet>
+      </div>
+
+    </div>
+
+  </div>
+
 </div>
+
+
+
