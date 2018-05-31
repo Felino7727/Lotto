@@ -19,7 +19,8 @@ export class ListBuyComponent implements OnInit {
     });
   }
   onSubmit(){
-    console.log(this.form);
+    const Tiket = this.form.value;
+    console.log(Tiket);
   }
 
 }

@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {ListNavigationModule} from './list-navigation/List-navigation.module';
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -15,7 +16,8 @@ import {ListNavigationModule} from './list-navigation/List-navigation.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ListNavigationModule
+    ListNavigationModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

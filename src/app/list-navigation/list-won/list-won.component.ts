@@ -9,7 +9,7 @@ export class ListWonComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
+
 
 }
