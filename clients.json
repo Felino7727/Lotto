@@ -2,25 +2,19 @@
   "tickets": [
     {
       "id": "1",
-      "firstName": "Antontsev",
-      "lastName": "Nikita",
       "email": "antont@mail.ru",
       "payeer": "PA14616",
       "datebuy": "29.05.2018 20:55",
       "dategame": "30.05.2018 21:00",
-      "win": "true",
-      "number_ticket": "1234567"
+      "win": "true"
     },
     {
       "id": "2",
-      "firstName": "Panko",
-      "lastName": "Lena",
       "email": "lenok@mail.ru",
       "payeer": "PA28786",
       "datebuy": "29.05.2018 18:24",
       "dategame": "30.05.2018 21:00",
-      "win": "false",
-      "number_ticket": "7654321"
+      "win": "false"
     }
   ]
 }

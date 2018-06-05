@@ -15,7 +15,7 @@ export class ListBuyComponent implements OnInit {
     this.form=new FormGroup({
       'payeer':new FormControl(null,[Validators.required,Validators.maxLength(7)]),
       'email':new FormControl(null,[Validators.required,Validators.email]),
-      'ticket':new FormControl(null,[Validators.required,Validators.max(7)])
+      //'ticket':new FormControl(null,[Validators.required,Validators.max(7)])
     });
   }
   onSubmit(){

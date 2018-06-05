@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './list-won.component.html',
   styleUrls: ['./list-won.component.css']
 })
+
 export class ListWonComponent implements OnInit {
 
   constructor() { }

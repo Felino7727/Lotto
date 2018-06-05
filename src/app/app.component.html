@@ -1,32 +1,62 @@
-<div>
-
-  <nav>
-    <div class="nav-wrapper">
-      <a [routerLink]="''" class="brand-logo center">Lotto</a>
-    </div>
-  </nav>
-  <!-- Navbar goes here -->
-
-  <!-- Page Layout here -->
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col s3">
-        <li><a [routerLink]="''">Home</a></li>
-        <li><a [routerLink]="'/buy'">buy</a></li>
-        <li><a [routerLink]="'/won'">Win</a></li>
+<div class="demo-layout">
+  <div class="row">
+    <nav>
+      <div class="nav-wrapper">
+        <a class="brand-logo">Lotto</a>
       </div>
+    </nav>
+    <div class="sidebar col s3 ">
+      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
 
-      <div class="col s9">
-        <router-outlet></router-outlet>
+        <div class="collection demo-navigation mdl-navigation mdl-color--blue-grey-800">
+          <a class="collection-item mdl-navigation__link" [routerLink]="''"><i
+            class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
+          <a class="collection-item mdl-navigation__link" [routerLink]="'/won'"><i
+            class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Win</a>
+          <a class="collection-item mdl-navigation__link" [routerLink]="'/buy'"><i
+            class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Buy</a>
+
+          <div class="mdl-layout-spacer"></div>
+        </div>
       </div>
-
     </div>
-
+    <div class="main-content col s9">
+      <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+        <main class="row">
+          <div class="col s12">
+            <div class="card demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+              <div class="card-content">
+                <div class="row">
+                  <router-outlet></router-outlet>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
   </div>
-
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Lotto</h5>
+          <p class="grey-text text-lighten-4">Play game</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" [routerLink]="''">Home</a></li>
+            <li><a class="grey-text text-lighten-3" [routerLink]="'/won'">Win</a></li>
+            <li><a class="grey-text text-lighten-3" [routerLink]="'/buy'">Buy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Lotto
+      </div>
+    </div>
+  </footer>
 </div>
-
-
-
