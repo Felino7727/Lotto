@@ -2,7 +2,7 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Tickets} from '../models/tickets.model';
 import {map} from 'rxjs/operators';
-import {Injectable} from '@angular/compiler/src/core';
+import {Injectable} from '@angular/core';
 
 
 

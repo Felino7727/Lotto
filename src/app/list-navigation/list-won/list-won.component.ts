@@ -10,9 +10,11 @@ import {Tickets} from '../../share/models/tickets.model';
 
 export class ListWonComponent implements OnInit {
 
+
   constructor(
     private womService:TicketsService
   ) { }
+
 
   ngOnInit(   ) {
     this.womService.getWinTickets().subscribe((id:Tickets) =>{
