@@ -1,7 +1,6 @@
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Tickets} from '../models/tickets.model';
-import { map} from 'rxjs/operators';
 import {Injectable} from '@angular/core';
 
 
@@ -15,8 +14,8 @@ export class TicketsService {
   }
 
   setTickets(ticket:Tickets):Observable<Tickets[]>{
-    return this.http.put('http://localhost:3000/tickets',ticket)
-      .pipe(map((response:any)=>response.json()))
+    console.log(ticket);
+    return this.http.put<Tickets[]>('http://localhost:3000/tickets',ticket);
   }
 
 }
