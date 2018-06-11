@@ -1,45 +1,51 @@
 {
   "tickets": [
     {
-      "id": "1",
-      "email": "antont@mail.ru",
-      "payeer": "PA14616",
-      "datebuy": "29.05.2018 20:55",
-      "dategame": "30.05.2018 21:00",
-      "win": "true"
+      "email": "antontsev.nikita@gmail.com",
+      "payeer": "PA12345",
+      "win": false,
+      "date_buy": 1528718593833,
+      "date_game": 1528718593833,
+      "id": 1
     },
     {
-      "id": "2",
-      "email": "lenok@mail.ru",
-      "payeer": "PA28786",
-      "datebuy": "29.05.2018 18:24",
-      "dategame": "30.05.2018 21:00",
-      "win": "false"
+      "email": "panko.lena@gmail.com",
+      "payeer": "PA74125",
+      "win": false,
+      "date_buy": 1528718617512,
+      "date_game": 1528718617512,
+      "id": 2
     },
     {
-      "id": "3",
-      "email": "lenok@mail.ru",
-      "payeer": "PA772658",
-      "datebuy": "29.05.2018 18:24",
-      "dategame": "30.05.2018 21:00",
-      "win": "true"
+      "email": "bitshop@bitshop.com",
+      "payeer": "Pk54684",
+      "win": true,
+      "date_buy": 1528718705921,
+      "date_game": 1528718705921,
+      "id": 3
+    },
+    {
+      "email": "antontsev.nikita@gmail.com77",
+      "payeer": "PA12547",
+      "win": false,
+      "date_buy": 1528718728312,
+      "date_game": 1528718728312,
+      "id": 4
+    },
+    {
+      "email": "antontsev.nikita@gmail.com",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": 1528719267560,
+      "date_game": 1528719267560,
+      "id": 5
     },
     {
       "email": "antontsev.nikita@gmail.com",
       "payeer": "7777777",
       "win": false,
-      "id": 4
-    },
-    {
-      "email": "antontsev.nikita@gmail.com",
-      "payeer": "srthsrt",
-      "win": false,
-      "id": 5
-    },
-    {
-      "email": "bitshop@bitshop.com",
-      "payeer": "Pk54684",
-      "win": false,
+      "date_buy": 1528719300658,
+      "date_game": 1528719300658,
       "id": 6
     }
   ]
