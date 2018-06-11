@@ -23,10 +23,10 @@ export class ListBuyComponent implements OnInit {
 
   }
   onBuy(){
-    this.data.payeer=this.form.value.payeer;
-    this.data.email=this.form.value.email;
-
-    console.log(this.data);
+    this.data=new Tickets(
+      this.form.value.email,
+      this.form.value.payeer
+    )
 
     this.ticketsService.setTickets(this.data).subscribe();
   }

@@ -15,6 +15,7 @@ export class ListWonComponent implements OnInit {
 
   ngOnInit(){
     this.ticketsService.getWinTickets().subscribe(ticket =>{
+
       this.ticket=ticket;
       console.log(ticket);
     });
