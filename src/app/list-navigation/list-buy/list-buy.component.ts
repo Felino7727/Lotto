@@ -17,8 +17,7 @@ export class ListBuyComponent implements OnInit {
   ngOnInit() {
     this.form=new FormGroup({
       'payeer':new FormControl(null,[Validators.required,Validators.maxLength(7)]),
-      'email':new FormControl(null,[Validators.required,Validators.email]),
-      //'ticket':new FormControl(null,[Validators.required,Validators.max(7)])
+      'email':new FormControl(null,[Validators.required,Validators.email])
     });
 
   }
@@ -26,7 +25,7 @@ export class ListBuyComponent implements OnInit {
     this.data=new Tickets(
       this.form.value.email,
       this.form.value.payeer
-    )
+    );
 
     this.ticketsService.setTickets(this.data).subscribe();
   }

@@ -14,8 +14,12 @@ export class TicketsService {
   }
 
   setTickets(ticket:Tickets):Observable<Tickets[]>{
-    console.log(ticket);
     return this.http.post<Tickets[]>('http://localhost:3000/tickets',ticket);
+  }
+
+  updateTickets(ticket:Tickets):Observable<Tickets[]>{
+    console.log(ticket);
+    return this.http.put<Tickets[]>('http://localhost:3000/tickets',ticket)
   }
 
 }

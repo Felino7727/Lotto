@@ -18,11 +18,7 @@ export class ListWonComponent implements OnInit {
     this.ticketsService.getWinTickets().subscribe(ticket =>{
 
       this.ticket=ticket.filter((c)=>c.win==true);
-      console.log(ticket);
     });
   }
-
-
-
 
 }
