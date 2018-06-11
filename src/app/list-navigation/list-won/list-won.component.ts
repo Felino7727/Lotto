@@ -11,15 +11,18 @@ export class ListWonComponent implements OnInit {
 
   @Input()
   ticket:any = [];
+  Search='';
   constructor(private ticketsService:TicketsService){}
 
   ngOnInit(){
     this.ticketsService.getWinTickets().subscribe(ticket =>{
 
-      this.ticket=ticket;
+      this.ticket=ticket.filter((c)=>c.win==true);
       console.log(ticket);
     });
   }
+
+
 
 
 }

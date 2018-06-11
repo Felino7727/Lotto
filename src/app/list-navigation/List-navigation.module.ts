@@ -7,6 +7,7 @@ import {ListHomeComponent} from './list-home/list-home.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {ListNavigationComponent} from './list-navigation.component';
 import {ShareModule} from '../share/share.module';
+import {SearchPipe} from '../share/service/search.pipe';
 
 
 
@@ -15,7 +16,8 @@ import {ShareModule} from '../share/share.module';
     ListBuyComponent,
     ListWonComponent,
     ListHomeComponent,
-    ListNavigationComponent
+    ListNavigationComponent,
+    SearchPipe
   ],
   imports: [
     CommonModule,
