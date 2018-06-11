@@ -1,13 +1,16 @@
+<h1 class="center-align">Won</h1>
+
 <div class="row ">
   <div class="input-field col s3">
     <input value="" id="first_name2" type="text" class="validate">
-    <label class="active" for="first_name2">Number ticket</label>
+    <label class="active" for="first_name2">Search Won</label>
   </div>
 </div>
-<ul class="collection with-header">
-  <li class="collection-header center-align"><h4>Won</h4></li>
-  <li class="collection-item">
-    <div>payeer<a class="secondary-content"><i class="material-icons">send</i></a></div>
-  </li>
 
+<div >
+<ul class="collection with-header" >
+  <li class="collection-item" *ngFor="let tiket of ticket" >
+    <div>{{tiket.payeer}}</div>
+  </li>
 </ul>
+</div>

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {TicketsService} from '../../share/service/tickets.service';
 
 @Component({
   selector: 'anv-list-buy',
@@ -10,9 +9,6 @@ import {TicketsService} from '../../share/service/tickets.service';
 export class ListBuyComponent implements OnInit {
 
   form:FormGroup;
-  constructor(
-    private buyService:TicketsService
-  ) { }
 
   ngOnInit() {
     this.form=new FormGroup({
@@ -23,9 +19,6 @@ export class ListBuyComponent implements OnInit {
 
   }
   onSubmit(){
-    const Tiket = this.form.value;
-    this.buyService.setTickets(Tiket);
-    console.log(Tiket);
   }
 
 }

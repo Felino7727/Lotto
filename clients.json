@@ -15,6 +15,14 @@
       "datebuy": "29.05.2018 18:24",
       "dategame": "30.05.2018 21:00",
       "win": "false"
+    },
+    {
+      "id": "3",
+      "email": "lenok@mail.ru",
+      "payeer": "PA772658",
+      "datebuy": "29.05.2018 18:24",
+      "dategame": "30.05.2018 21:00",
+      "win": "true"
     }
   ]
 }

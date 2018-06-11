@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {TicketsService} from '../../share/service/tickets.service';
-import {Tickets} from '../../share/models/tickets.model';
 
 @Component({
   selector: 'anv-list-won',
@@ -10,15 +9,14 @@ import {Tickets} from '../../share/models/tickets.model';
 
 export class ListWonComponent implements OnInit {
 
+  @Input()
+  ticket:any = [];
+  constructor(private ticketsService:TicketsService){}
 
-  constructor(
-    private womService:TicketsService
-  ) { }
-
-
-  ngOnInit(   ) {
-    this.womService.getWinTickets().subscribe((id:Tickets) =>{
-      let win = id;
+  ngOnInit(){
+    this.ticketsService.getWinTickets().subscribe(ticket =>{
+      this.ticket=ticket;
+      console.log(ticket);
     });
   }
 
