@@ -2,6 +2,7 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Tickets} from '../models/tickets.model';
 import {Injectable} from '@angular/core';
+import {Winnumber} from '../models/winnumber.model';
 
 
 
@@ -17,9 +18,9 @@ export class TicketsService {
     return this.http.post<Tickets[]>('http://localhost:3000/tickets',ticket);
   }
 
-  updateTickets(ticket:Tickets):Observable<Tickets[]>{
+  updateTickets(ticket:Winnumber):Observable<Winnumber[]>{
     console.log(ticket);
-    return this.http.put<Tickets[]>('http://localhost:3000/tickets',ticket)
+    return this.http.put<Winnumber[]>('http://localhost:3000/tickets',ticket)
   }
 
 }
