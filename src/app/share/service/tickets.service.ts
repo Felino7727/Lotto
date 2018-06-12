@@ -19,7 +19,6 @@ export class TicketsService {
   }
 
   updateTickets(ticket:Winnumber):Observable<Winnumber[]>{
-    console.log(ticket);
     return this.http.put<Winnumber[]>('http://localhost:3000/tickets',ticket)
   }
 

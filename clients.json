@@ -3,7 +3,7 @@
     {
       "email": "antontsev.nikita@gmail.com",
       "payeer": "PA12345",
-      "win": false,
+      "win": true,
       "date_buy": 1528718593833,
       "date_game": 1528718593833,
       "id": 1
@@ -47,6 +47,14 @@
       "date_buy": 1528719300658,
       "date_game": 1528719300658,
       "id": 6
+    },
+    {
+      "email": "thsrths@egr.dujyt",
+      "payeer": "jytj",
+      "win": false,
+      "date_buy": 1528805215546,
+      "date_game": 1528805215546,
+      "id": 7
     }
   ]
 }

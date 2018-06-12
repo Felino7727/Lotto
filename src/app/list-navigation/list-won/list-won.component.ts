@@ -17,7 +17,8 @@ export class ListWonComponent implements OnInit {
   ngOnInit(){
     this.ticketsService.getWinTickets().subscribe(ticket =>{
 
-      this.ticket=ticket.filter((c)=>c.win==true);
+      this.ticket=ticket.filter(c=>c.win==true);
+      console.log(this.ticket)
     });
   }
 

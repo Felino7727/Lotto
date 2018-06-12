@@ -7,10 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListHomeComponent implements OnInit {
 
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  constructor() {  }
+  ngOnInit() {  }
 
 }

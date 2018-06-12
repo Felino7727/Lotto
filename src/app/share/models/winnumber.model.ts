@@ -1,6 +1,6 @@
 export class Winnumber {
   constructor(
-    public payeer: string
+    public id: number
   ){}
 
 }
