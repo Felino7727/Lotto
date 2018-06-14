@@ -1,28 +1,12 @@
 {
   "tickets": [
     {
-      "email": "antontsev.nikita@gmail.com",
-      "payeer": "PA12345",
-      "win": true,
-      "date_buy": 1528718593833,
-      "date_game": 1528718593833,
-      "id": 1
-    },
-    {
       "email": "panko.lena@gmail.com",
       "payeer": "PA74125",
       "win": false,
       "date_buy": 1528718617512,
       "date_game": 1528718617512,
       "id": 2
-    },
-    {
-      "email": "bitshop@bitshop.com",
-      "payeer": "Pk54684",
-      "win": true,
-      "date_buy": 1528718705921,
-      "date_game": 1528718705921,
-      "id": 3
     },
     {
       "email": "antontsev.nikita@gmail.com77",
@@ -55,6 +39,96 @@
       "date_buy": 1528805215546,
       "date_game": 1528805215546,
       "id": 7
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 8
+    },
+    {
+      "email": "bitshop@bitshop.com",
+      "payeer": "regrege",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 9
+    },
+    {
+      "email": "argaerg@mail.ru",
+      "payeer": "7777777",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 10
+    }
+  ],
+  "win": [
+    {
+      "email": "panko.lena@gmail.com",
+      "payeer": "PA74125",
+      "win": false,
+      "date_buy": 1528718617512,
+      "date_game": 1528718617512,
+      "id": 2
+    },
+    {
+      "email": "antontsev.nikita@gmail.com77",
+      "payeer": "PA12547",
+      "win": false,
+      "date_buy": 1528718728312,
+      "date_game": 1528718728312,
+      "id": 4
+    },
+    {
+      "email": "antontsev.nikita@gmail.com",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": 1528719267560,
+      "date_game": 1528719267560,
+      "id": 5
+    },
+    {
+      "email": "antontsev.nikita@gmail.com",
+      "payeer": "7777777",
+      "win": false,
+      "date_buy": 1528719300658,
+      "date_game": 1528719300658,
+      "id": 6
+    },
+    {
+      "email": "thsrths@egr.dujyt",
+      "payeer": "jytj",
+      "win": false,
+      "date_buy": 1528805215546,
+      "date_game": 1528805215546,
+      "id": 7
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 8
+    },
+    {
+      "email": "bitshop@bitshop.com",
+      "payeer": "regrege",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 9
+    },
+    {
+      "email": "argaerg@mail.ru",
+      "payeer": "7777777",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 10
     }
   ]
 }
