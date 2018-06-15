@@ -9,17 +9,18 @@ import {Tickets} from '../../share/models/tickets.model';
 })
 export class ListHomeComponent implements OnInit {
 
+  ticket: any;
+  tikets: Tickets;
+
   constructor(private winnumberService: TicketsService) {
   }
 
-  ticket: any;
-  tikets:Tickets;
-
   onWinNumber() {
     this.winnumberService.getTickets().subscribe(ticket => {
-      this.ticket=ticket;//.filter(c => c.id % 3 == 0)
-      for (let i in this.ticket){
-        this.tikets= this.ticket[i];
+      this.ticket = ticket;//.filter(c => c.id % 3 == 0)
+      for (let i in this.ticket) {
+        this.tikets = this.ticket[i];
+        i = i + 3;
         this.winnumberService.setWinTickets(this.tikets).subscribe();
       }
     });

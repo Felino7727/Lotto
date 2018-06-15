@@ -4,15 +4,16 @@ import {ListWonComponent} from './list-navigation/list-won/list-won.component';
 import {ListBuyComponent} from './list-navigation/list-buy/list-buy.component';
 import {ListHomeComponent} from './list-navigation/list-home/list-home.component';
 
-const routes: Routes =[
-  {path:'',component:ListHomeComponent},
-  {path:'buy',component:ListBuyComponent},
-  {path:'won',component:ListWonComponent}
+const routes: Routes = [
+  {path: '', component: ListHomeComponent},
+  {path: 'buy', component: ListBuyComponent},
+  {path: 'won', component: ListWonComponent}
 ];
 
 @NgModule({
-  imports:[RouterModule.forRoot(routes)],
-  exports:[RouterModule]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 
-export class AppRoutingModule {}
+export class AppRoutingModule {
+}

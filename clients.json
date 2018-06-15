@@ -63,6 +63,46 @@
       "date_buy": "2018-07-11T21:00:00.000Z",
       "date_game": "2018-07-11T21:00:00.000Z",
       "id": 10
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "regrege",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 11
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 12
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 13
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "gser",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 14
+    },
+    {
+      "email": "antontsev.nikita@gmail.com",
+      "payeer": "dfggtre",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 15
     }
   ],
   "win": [
@@ -129,6 +169,46 @@
       "date_buy": "2018-07-11T21:00:00.000Z",
       "date_game": "2018-07-11T21:00:00.000Z",
       "id": 10
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "regrege",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 11
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 12
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "gser",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 14
+    },
+    {
+      "email": "aergae@kaerg.tu",
+      "payeer": "Pk54684",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 13
+    },
+    {
+      "email": "antontsev.nikita@gmail.com",
+      "payeer": "dfggtre",
+      "win": false,
+      "date_buy": "2018-07-11T21:00:00.000Z",
+      "date_game": "2018-07-11T21:00:00.000Z",
+      "id": 15
     }
   ]
 }

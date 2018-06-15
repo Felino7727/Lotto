@@ -1,13 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule} from '@angular/platform-browser';
 import {AppRoutingModule} from './app-routing.module';
-import { NgModule } from '@angular/core';
+import {NgModule} from '@angular/core';
 
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {ListNavigationModule} from './list-navigation/List-navigation.module';
 import {HttpClientModule} from '@angular/common/http';
 import {TicketsService} from './share/service/tickets.service';
-
 
 
 @NgModule({
@@ -23,4 +22,5 @@ import {TicketsService} from './share/service/tickets.service';
   providers: [TicketsService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

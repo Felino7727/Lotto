@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {TicketsService} from '../../share/service/tickets.service';
 import {Tickets} from '../../share/models/tickets.model';
@@ -10,24 +10,34 @@ import {Tickets} from '../../share/models/tickets.model';
 })
 export class ListBuyComponent implements OnInit {
 
-  form:FormGroup;
-  data:Tickets;
-  constructor(private ticketsService:TicketsService){}
+  form: FormGroup;
+  data: Tickets;
+
+  constructor(private ticketsService: TicketsService) {
+  }
 
   ngOnInit() {
-    this.form=new FormGroup({
-      'payeer':new FormControl(null,[Validators.required,Validators.maxLength(7)]),
-      'email':new FormControl(null,[Validators.required,Validators.email])
+    this.form = new FormGroup({
+      'payeer': new FormControl(null, [Validators.required, Validators.maxLength(7)]),
+      'email': new FormControl(null, [Validators.required, Validators.email])
     });
 
   }
-  onBuy(){
-    this.data=new Tickets(
+
+  onBuy() {
+    //this.ticketsService.getPayeerApi();
+    //console.log(this.ticketsService.getPayeerApi());
+    this.data = new Tickets(
       this.form.value.email,
       this.form.value.payeer
     );
 
     this.ticketsService.setTickets(this.data).subscribe();
+
+    this.form = new FormGroup({
+      'payeer': new FormControl(null, [Validators.required, Validators.maxLength(7)]),
+      'email': new FormControl(null, [Validators.required, Validators.email])
+    });
   }
 
 }

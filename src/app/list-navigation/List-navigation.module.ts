@@ -10,7 +10,6 @@ import {ShareModule} from '../share/share.module';
 import {SearchPipe} from '../share/service/search.pipe';
 
 
-
 @NgModule({
   declarations: [
     ListBuyComponent,
@@ -25,4 +24,5 @@ import {SearchPipe} from '../share/service/search.pipe';
     ShareModule
   ]
 })
-export class ListNavigationModule { }
+export class ListNavigationModule {
+}
