@@ -29,7 +29,7 @@ export class TicketsService {
     return this.http.post<Tickets[]>('http://localhost:3000/win', ticket);
   }
 
-  //Payeer
+  //Payeer нужно указать id и apiPass получаются в личном кабинете
   getPayeerApi() {
     return this.http.get('https://payeer.com/ajax/api/api.php/account=P1000846577&apiId=591559244&apiPass=BFYHrh1noGN3kSYx');
   }
