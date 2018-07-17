@@ -11,6 +11,7 @@ export class ListHomeComponent implements OnInit {
 
   ticket: any;
   tikets: Tickets;
+  jackpot:number;
 
   constructor(private winnumberService: TicketsService) {
   }
@@ -27,6 +28,10 @@ export class ListHomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.winnumberService.getTickets().subscribe(ticket=>{
+      this.ticket=ticket;
+      this.jackpot=Math.trunc(((ticket.length/100)*10)*5);
+    })
   }
 
 }

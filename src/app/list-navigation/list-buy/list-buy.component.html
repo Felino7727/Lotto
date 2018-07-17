@@ -2,18 +2,18 @@
   <form class="col s6" [formGroup]="form" (ngSubmit)="onBuy()">
 
     <div class="row">
-      <div class="input-field col s12">
+      <div class="input-field col s10">
         <h1>5$</h1>
       </div>
     </div>
 
 
     <div class="row">
-      <div class="input-field col s6">
+      <div class="input-field col s5">
         <input id="email" type="email" class="validate" formControlName="email" placeholder="E-mail">
       </div>
 
-      <div class="input-field col s6">
+      <div class="input-field col s5">
         <input id="payeer" type="text" class="validate" formControlName="payeer" placeholder="payeer">
       </div>
     </div>
@@ -23,4 +23,5 @@
     </button>
 
   </form>
+
 </div>
