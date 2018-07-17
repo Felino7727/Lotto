@@ -28,6 +28,7 @@ export class ListHomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    //Jacpot
     this.winnumberService.getTickets().subscribe(ticket=>{
       this.ticket=ticket;
       this.jackpot=Math.trunc(((ticket.length/100)*10)*5);
